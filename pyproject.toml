@@ -1,0 +1,18 @@
+[project]
+name = "de-koekeloerder"
+version = "0.1.0"
+description = "\u007fcomputer vision with python or something idfk"
+authors = [
+    {name = "Niels Groen",email = "140756283+hooded-person@users.noreply.github.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "opencv-python (>=4.11.0.86,<5.0.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
